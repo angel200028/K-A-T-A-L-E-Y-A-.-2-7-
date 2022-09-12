@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/*font-family: 'Kumbh Sans', sans-serif;*/
+
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+.logo{
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    background-repeat: no-repeat;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.card-container{
+    border: 2px solid white;
+    margin: 30px auto 50px;
+    width: 330px;
+    height: 380px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.bubbles{
+    background: url(./images/productofinal.png);
+    height: 140px;
+}
+.photo{
+    position: absolute;
+    top: 87px;
+    left: 35%;
+    border: 5px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 96px;
+}
+
+.personal-data-container{
+    background-color: white;
+    height: 150px;
+    padding: 45px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.name{
+    font-weight: 700;
+    color: var(--Dark-grayish-blue);
+}
+.age, .city{
+    color: var(--Dark-gray);
+}
+.city{
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+.stats-container{
+    background-color: white;
+    border-top: 1px solid var(--Dark-gray);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+.stadisticas{
+    text-align: center;
+}
+.cantidad{
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--Very-dark-desaturated-blue);
+}
+.units{
+    font-size: 0.6em;
+    color: var(--Dark-gray);
+    letter-spacing: 2px;
+}
+.footer{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
